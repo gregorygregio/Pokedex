@@ -13,9 +13,6 @@ namespace Migrations
                     .WithColumn("id").AsString(36).PrimaryKey()
                     .WithColumn("pokedex_index").AsInt32().NotNullable().Unique()
                     .WithColumn("name").AsString(26).NotNullable().Unique()
-
-
-
                     .WithColumn("hp").AsInt32().NotNullable()
                     .WithColumn("attack").AsInt32().NotNullable()
                     .WithColumn("defense").AsInt32().NotNullable()
