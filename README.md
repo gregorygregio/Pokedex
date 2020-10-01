@@ -49,3 +49,21 @@ E a tabela que relaciona as duas anteriores, pokemon_types:
 * **type_id** -> um varchar(36) com um id de um tipo;
 
 A migration também seedará os valores da tabela _types_, além de inserir o primeiro pokemon de exemplo;
+
+
+## Total
+No endpoint de listagem, deve-se devolver a lista de todos os pokemons cadastrados, com seus respectivos tipos. Além dos campos da tabela,
+é preciso também trazer calcular o campo _total_ de **cada pokemon**.
+O campo total corresponde à soma de todos os dados quantitativos (generation e pokemon_index **não entram no total**)
+
+
+
+## Dados de teste
+
+Index | Name | HP | Attack | Defense | Sp. Atk | Sp. Def | Speed | Generation
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+1 | Bulbasaur | 45 | 49 | 49 | 65 | 65 | 45 | 1
+2 | Ivysaur | 60 | 62 | 63 | 80 | 80 | 60 | 1
+3 | Venusaur | 80 | 82 | 83 | 100 | 100 | 80 | 1
+4 | Charmander | 39 | 52 | 43 | 60 | 50 | 65 | 1
+
