@@ -2,7 +2,7 @@
   "profiles": {
     "MigrationsRunner": {
       "commandName": "Project",
-      "commandLineArgs": "\"User ID=postgres;Password=@DVtecnologia1994;Host=localhost;Port=5432;Database=db_pokedex;Pooling=true;\""
+      "commandLineArgs": "\"User ID=<user>;Password=<pwd>;Host=localhost;Port=5432;Database=<db_pokedex>;Pooling=true;\""
     }
   }
 }
